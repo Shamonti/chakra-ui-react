@@ -1,5 +1,5 @@
 import './App.css';
-import { Box, Spacer, Stack, VStack } from '@chakra-ui/react';
+import { Box, Spacer, Stack, Text, VStack } from '@chakra-ui/react';
 
 function App() {
   return (
@@ -19,6 +19,12 @@ function App() {
           This is a box.
         </Box>
       </VStack>
+      <Text as='b' fontSize='lg' color='tomato' noOfLines={1}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut
+        ipsam itaque necessitatibus iste tempora quidem cupiditate deleniti
+        laborum. Itaque nesciunt perspiciatis, voluptatibus ex molestias
+        voluptates libero impedit odit officiis.
+      </Text>
     </div>
   );
 }
