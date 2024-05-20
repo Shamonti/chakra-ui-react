@@ -1,5 +1,5 @@
 import './App.css';
-import { Box, Spacer, Stack, Text, VStack } from '@chakra-ui/react';
+import { Box, Spacer, Stack, Text, VStack, Heading } from '@chakra-ui/react';
 
 function App() {
   return (
@@ -25,6 +25,10 @@ function App() {
         laborum. Itaque nesciunt perspiciatis, voluptatibus ex molestias
         voluptates libero impedit odit officiis.
       </Text>
+      <Heading as='h1'>I am a heading</Heading>
+      <Box h='200px' w='300px' bg='teal' mt='10px'>
+        <Text fontSize='32px'>I am text in a box</Text>
+      </Box>
     </div>
   );
 }
