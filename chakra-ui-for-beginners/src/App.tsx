@@ -1,10 +1,10 @@
 import './App.css';
-import { Box, Flex, Spacer } from '@chakra-ui/react';
+import { Box, Spacer, Stack, VStack } from '@chakra-ui/react';
 
 function App() {
   return (
     <div className='App'>
-      <Flex justify='space-between' align='center'>
+      <VStack spacing='24px'>
         <Box as='section' bg='tomato' w='120px' h='150px' color='white'>
           This is a box.
         </Box>
@@ -18,7 +18,7 @@ function App() {
         <Box as='section' bg='teal' w='150px' h='150px' color='white'>
           This is a box.
         </Box>
-      </Flex>
+      </VStack>
     </div>
   );
 }
