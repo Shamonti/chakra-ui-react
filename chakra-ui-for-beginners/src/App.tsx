@@ -1,5 +1,13 @@
 import './App.css';
-import { Box, Spacer, Stack, Text, VStack, Heading } from '@chakra-ui/react';
+import {
+  Box,
+  Spacer,
+  Stack,
+  Text,
+  VStack,
+  Heading,
+  Button,
+} from '@chakra-ui/react';
 
 function App() {
   return (
@@ -28,6 +36,14 @@ function App() {
       <Heading as='h1'>I am a heading</Heading>
       <Box h='200px' w='300px' bg='teal' mt='10px'>
         <Text fontSize='32px'>I am text in a box</Text>
+        <Button
+          mt='32px'
+          colorScheme='red'
+          _hover={{ background: 'blue' }}
+          _focus={{ background: 'yellow.300', color: 'red.500' }}
+        >
+          Click Me
+        </Button>
       </Box>
     </div>
   );
