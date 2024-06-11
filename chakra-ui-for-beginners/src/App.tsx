@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header';
+import Pricing from './components/Pricing';
 // import {
 //   Box,
 //   Spacer,
@@ -47,6 +48,7 @@ function App() {
         </Button>
       </Box> */}
       <Header></Header>
+      <Pricing></Pricing>
     </div>
   );
 }
