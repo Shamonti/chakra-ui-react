@@ -1,18 +1,19 @@
 import './App.css';
-import {
-  Box,
-  Spacer,
-  Stack,
-  Text,
-  VStack,
-  Heading,
-  Button,
-} from '@chakra-ui/react';
+import Header from './components/Header';
+// import {
+//   Box,
+//   Spacer,
+//   Stack,
+//   Text,
+//   VStack,
+//   Heading,
+//   Button,
+// } from '@chakra-ui/react';
 
 function App() {
   return (
     <div className='App'>
-      <VStack spacing='24px'>
+      {/* <VStack spacing='24px'>
         <Box as='section' bg='tomato' w='120px' h='150px' color='white'>
           This is a box.
         </Box>
@@ -44,7 +45,8 @@ function App() {
         >
           Click Me
         </Button>
-      </Box>
+      </Box> */}
+      <Header></Header>
     </div>
   );
 }
