@@ -1,4 +1,4 @@
-import './App.css';
+import { Box } from '@chakra-ui/react';
 import Header from './components/Header';
 import Pricing from './components/Pricing';
 // import {
@@ -47,8 +47,10 @@ function App() {
           Click Me
         </Button>
       </Box> */}
-      <Header></Header>
-      <Pricing></Pricing>
+      <Box bgColor='white'>
+        <Header></Header>
+        <Pricing></Pricing>
+      </Box>
     </div>
   );
 }
