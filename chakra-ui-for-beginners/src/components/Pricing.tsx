@@ -1,6 +1,5 @@
 import {
   Box,
-  Button,
   Flex,
   Heading,
   HStack,
@@ -10,6 +9,7 @@ import {
   Text,
 } from '@chakra-ui/react';
 import CheckIcon from '../Icons/CheckIcon';
+import CustomButton from './CustomButton';
 
 export const ListItem = (props: StackProps) => {
   const { children, ...rest } = props;
@@ -43,9 +43,7 @@ const Pricing = () => {
           <Text color='#171923' fontSize='18px' fontWeight='500' mt='8px'>
             billed just once
           </Text>
-          <Button bg='#6B46C1' size='lg' w='282px' mt='24px'>
-            Get Started
-          </Button>
+          <CustomButton>Get Started</CustomButton>
         </Box>
         <Box color='#171923' padding='60px' fontSize='18px' bg='white'>
           <Text textAlign='left'>
