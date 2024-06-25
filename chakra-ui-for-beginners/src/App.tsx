@@ -1,6 +1,7 @@
 import { Box } from '@chakra-ui/react';
 import Header from './components/Header';
 import Pricing from './components/Pricing';
+import Features from './components/Features';
 // import {
 //   Box,
 //   Spacer,
@@ -50,6 +51,7 @@ function App() {
       <Box bgColor='white'>
         <Header></Header>
         <Pricing></Pricing>
+        <Features />
       </Box>
     </div>
   );
